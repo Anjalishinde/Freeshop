@@ -1,0 +1,65 @@
+
+// slider
+
+// card
+ion-content.clothes-container{
+  
+  display: flex;
+  flex-direction: column;
+
+  .card::-webkit-scrollbar {
+    display: none;
+  }
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  margin-top: 50px;
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+ // overflow-x: hidden;
+ 
+  .para{
+    white-space: nowrap;
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+  }
+  .button {
+    background-color: #4CAF50;
+    /* border: none; */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: -5px 4px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    right: 10px;
+    display: inherit;
+    float: right;
+
+  }
+
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  width: -webkit-fill-available;
+  padding: 3px 16px 20px 16px;
+}
+}
+
+

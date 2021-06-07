@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/registration']" class="regblock" color="primary">Register</ion-button>
+
+        <div class="Already">or</div>
+        
+        <div class='Already'>Already a user?</div>
+
+        <ion-button [routerLink]="['/login']" class="loginblock" color="danger">Sign In</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
