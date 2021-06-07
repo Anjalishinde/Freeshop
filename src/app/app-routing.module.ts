@@ -3,7 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {   path: '',
-redirectTo: 'home',
+redirectTo: 'forget-page',
 pathMatch: 'full'
 },
  
@@ -39,7 +39,12 @@ pathMatch: 'full'
   {
     path: 'cart',
     loadChildren: () => import('./cart/cart.module').then( m => m.CartPageModule)
+  },
+  {
+    path: 'forget-page',
+    loadChildren: () => import('./forget-page/forget-page.module').then( m => m.ForgetPagePageModule)
   }
+
 ];
 @NgModule({
   imports: [
