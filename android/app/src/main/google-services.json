@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "493107886748",
+    "project_id": "online-shopping-b4a1f",
+    "storage_bucket": "online-shopping-b4a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493107886748:android:b4a29dac15292cab7c4b59",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493107886748-q455m10el6qirl51qutv8rmek511sii8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIJ0CkJxRBZcUffKZwmBPcdpXeHGgbFpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493107886748-q455m10el6qirl51qutv8rmek511sii8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

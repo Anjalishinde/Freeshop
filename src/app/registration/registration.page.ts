@@ -63,7 +63,7 @@ export class RegistrationPage implements OnInit {
       console.log(resp);
       alert("succsefully updated");
       
-        this.navcql.navigateRoot(['tabs/shoppage'])  
+        this.navcql.navigateRoot(['tabs/shoppage']) 
       
     }).catch(error=>{
       console.log("error" + error)
